@@ -6,17 +6,17 @@ class Localshare < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/simple-tunnel/localshare/releases/download/v1.4.0/localshare-darwin-amd64"
+      url "https://github.com/localshare-io/localshare-releases/releases/download/v1.4.0/localshare-darwin-amd64"
       sha256 "2f7021eed96412c78d2323be5331537491f58ad3ed04cc48db816976a96a6aa0"
     else
-      url "https://github.com/simple-tunnel/localshare/releases/download/v1.4.0/localshare-darwin-arm64"
+      url "https://github.com/localshare-io/localshare-releases/releases/download/v1.4.0/localshare-darwin-arm64"
       sha256 "952a6ae3ff0a0f43ad3d38571be3891c436416a875b24e71229e00e354fb1d75"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/simple-tunnel/localshare/releases/download/v1.4.0/localshare-linux-amd64"
+      url "https://github.com/localshare-io/localshare-releases/releases/download/v1.4.0/localshare-linux-amd64"
       sha256 "aedcec2323d92c73032a80da3ac75d7dd36d887048344d77f43bd7370338af0e"
     end
   end
