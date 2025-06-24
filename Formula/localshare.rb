@@ -1,23 +1,23 @@
 class Localshare < Formula
   desc "Share local directories over the internet instantly with a modern React UI"
   homepage "https://github.com/localshare-io/localshare"
-  version "2.0.1"
+  version "2.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/localshare-io/localshare-releases/releases/download/v2.0.1/localshare-darwin-amd64"
-      sha256 "7408b82e0a9d9d921ca1cb7f4a46eeadb6d09ce30e0f723a55433d4f1c0b52f7"
+      url "https://github.com/localshare-io/localshare-releases/releases/download/v2.0.2/localshare-darwin-amd64"
+      sha256 "cff0a53d7c4e7d40c3df2095bbbbbad0d9a96188ac3cae9555387970ee0e4f48"
     else
-      url "https://github.com/localshare-io/localshare-releases/releases/download/v2.0.1/localshare-darwin-arm64"
-      sha256 "7630d6505dd117274760513e8a5dc10aa95fc16c668373a867ea5b3f905a4898"
+      url "https://github.com/localshare-io/localshare-releases/releases/download/v2.0.2/localshare-darwin-arm64"
+      sha256 "3e43c633ac766d48edb77258b3bfb37ce5520c843aad1184914c5895376b0988"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/localshare-io/localshare-releases/releases/download/v2.0.1/localshare-linux-amd64"
-      sha256 "50467593a2665412fb91c6f3bee0e22203e7f1752407b80728b4a128b18159ad"
+      url "https://github.com/localshare-io/localshare-releases/releases/download/v2.0.2/localshare-linux-amd64"
+      sha256 "5cbfac7356d0f6872a52206992613d520af2d0bcf8b6a61b965e2a6249081277"
     end
   end
 
